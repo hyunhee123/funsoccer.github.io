@@ -26,3 +26,16 @@ h1 span:nth-child(6) {
 .search-bar {
     width: 500px;
 }
+
+header{
+    padding-top: 10px;
+    padding-right: 10px;
+    text-align: center;
+}
+
+header a {
+    font-size: 30px;
+    color: Black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-decoration: underline;
+}
