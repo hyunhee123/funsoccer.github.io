@@ -5,17 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Washington State Soccer Association</title>
-    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="signin.css">
 </head>
 <body>
-     
+    
     <div class="container">
         <header>
             
             <img src="images/WSSA3.jpg" height="110px" width="800px" alt="Logo for Soccer Website">
             <div class="service">
                 <ul>
-                    <li><a href="signin.html">Sign in</a></li>
+                    <li><a href="#none">Sign in</a></li>
                     <li><a href="#none">Login</a></li>
                   
                 </ul>
@@ -23,8 +23,8 @@
         </header>
     
         <nav>
-            
-            <a href="aboutus.html">About us</a>
+            <a href="index.html">Home</a>
+            <a href="#">About us</a>
             <a href="#">News & Notices</a>
             <a href="#">Soccer Teams</a>
             <a href="">Pictures</a>
@@ -36,11 +36,16 @@
         </nav>
     
         <main>
-            <h1>Welcome!</h1>
-            <p>We love playing soccer! Explore the website! </p>
-            <a href="https://itallhappenshere.org/field-rentals/" target="_blank">RESERVE THE FIELD</a>
-            <p><a href="mailto:hyunhee.cho7@outlook.com?Subject=Question" target="_blank">Email US</a></p>
-
+          <form action="#" method="get">
+              Name: <input type="text" name="uname" /><br />
+              ID: <input type="text" name="uid" /><br />
+              Password: <input type="password" name="upw" /><br />
+              Contact Number: <input type="text" name="upohne1" size="5" /> - <input type="text" name="upohne2" size="5" /> - <input type="text" name="upohne3" size="5" /><br />
+              Profile Photo: <input type="file" name="upic"/><br />
+              Gender: <input type="radio" name="gender" value="m">Male, <input type="radio" name="gender" value="w">Female, <input type="radio" name="gender" value="o">Other <br />
+              Tell me about yourself: <br /><textarea rows="8" cols="70">Hello, my name is blahblah</textarea><br />
+              <input type ="submit"/>  
+          </form>
            
 
 
